@@ -1,0 +1,135 @@
+/*Styles go here*/
+
+body {
+	font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+}
+
+.logo {
+	width: 100px;
+	float: left; 
+	margin-right: 5px; 
+	border-style: none; 
+}
+
+h1 {
+	font-family: "Helvetica Neue Ultra Light", Helvetica, Arial, sans-serif;
+	font-size: 35px; 
+	padding-top: 25px; 
+	font-weight: normal;
+	text-transform: uppercase; 	
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-size: 20px; 
+	padding-top: 20px; 
+	font-weight: normal;
+}
+
+h3, h4 {
+	font-size: 18px;
+	padding: 0px 0px;
+	text-align: center;
+}
+
+p, ul {
+	font-size: 14px; 
+	line-height: 24px;
+}
+
+#container {
+	background-color: #E8E8E8;
+	width: 750px; 
+	margin: 0 auto; 
+}
+
+
+#main {
+	/*background-color: #E8E8E8;*/
+	width: 500px;
+	float: left;
+	text-align: center;
+}
+
+#sidebar {
+	/*background-color: #E8E8E8;*/
+	width: 200px;
+	border-left: 2px solid #ccc;
+	padding-left: 15px; 
+	float: right;
+}
+
+#nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 750px;
+	text-align: center;
+ 
+}
+
+#nav li {
+	float: left;
+}
+
+#nav a:link, #nav a:visited {
+	font-weight: bold;
+	color: #fff;
+	background-color: #80E0C8; 
+	display: block;
+	width: 250px;
+	text-align: center; 
+	text-decoration: none;
+	padding: 4px 0px;
+}
+
+#nav a:hover, #nav a:active {
+	background-color: #50B59C;
+}
+
+#contactlist {
+	list-style-type: none; 
+}
+
+#contactlist a:link, #contactlist a:visited {
+	font-weight: normal;
+	display: block;
+	text-align: center; 
+	text-decoration: none;
+	padding: 4px 0px;
+	color: teal;
+
+}
+
+#contactlist a:hover, #nav a:active {
+	color: gray;
+}
+
+
+#linklist {
+	list-style-type: none; 
+	margin: 0;
+	padding:0;
+	width:100%;
+}
+
+#linklist a:link, #linklist a:visited {
+	font-weight: normal;
+	display: block;
+	text-align: center; 
+	text-decoration: none;
+	padding: 4px 0px;
+	color: teal;
+
+}
+
+#linklist a:hover, #nav a:active {
+	color: gray;
+}
+
+
+
+
+
+
